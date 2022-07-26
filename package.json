@@ -1,0 +1,23 @@
+{
+    "name": "hw_10_wdio_cucumber",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "wdio": "wdio run wdio.conf.ts",
+        "wdio:tag": "npx wdio wdio.conf.ts --cucumberOpts.tagExpression='@Media'"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@wdio/cli": "^7.20.7",
+        "@wdio/cucumber-framework": "^7.20.7",
+        "@wdio/local-runner": "^7.20.7",
+        "@wdio/spec-reporter": "^7.20.7",
+        "chromedriver": "^103.0.0",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.7.4",
+        "wdio-chromedriver-service": "^7.3.2"
+    }
+}
