@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659468611487' stop='1659468617359'>
+    <name>Visit url https://www.kinopoisk.ru/: Enter a few movies in the advanced search</name>
+    <title>Visit url https://www.kinopoisk.ru/: Enter a few movies in the advanced search</title>
+    <test-cases>
+        <test-case start='1659468611487' status='passed' stop='1659468614053'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659468614053' status='passed' stop='1659468617126'>
+            <name>When I'm on the home page and click on the button advanced search</name>
+            <title>When I'm on the home page and click on the button advanced search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659468617126' status='broken' stop='1659468617358'>
+            <name>When I enter film The Maze Runner</name>
+            <title>When I enter film The Maze Runner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot use 'in' operator to search for 'selector' in true</message>
+                <stack-trace>TypeError: Cannot use 'in' operator to search for 'selector' in true
+                    at getSelectors (C:\Users\10\WebstormProjects\hw_10_WDIO+Cucumber\node_modules\expect-webdriverio\lib\util\formatMessage.js:28:33)
+                    at enhanceError (C:\Users\10\WebstormProjects\hw_10_WDIO+Cucumber\node_modules\expect-webdriverio\lib\util\formatMessage.js:43:80)
+                    at enhanceErrorBe (C:\Users\10\WebstormProjects\hw_10_WDIO+Cucumber\node_modules\expect-webdriverio\lib\util\formatMessage.js:75:37)
+                    at Object.executeCommandBe (C:\Users\10\WebstormProjects\hw_10_WDIO+Cucumber\node_modules\expect-webdriverio\lib\utils.js:55:56)
+                    at async C:\Users\10\WebstormProjects\hw_10_WDIO+Cucumber\node_modules\expect-webdriverio\lib\matchers\element\toBeDisplayed.js:9:24
+                    at async Browser.wrapCommandFn (C:\Users\10\WebstormProjects\hw_10_WDIO+Cucumber\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1659468617358' status='pending' stop='1659468617358'>
+            <name>Then I will see opened film The Maze Runner</name>
+            <title>Then I will see opened film The Maze Runner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1659468617358' status='passed' stop='1659468617359'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.134'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
