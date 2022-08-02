@@ -86,7 +86,7 @@ export const config: Options.Testrunner = {
             //
             browserName: "chrome",
             "goog:chromeOptions": {
-                args: ["--disable-notifications", "--enable-automation", "--incognito"],
+                args: ["--disable-notifications", "--enable-automation", "--incognito", "--headless"],
             },
             acceptInsecureCerts: true,
             // If outputDir is provided WebdriverIO can capture driver session logs
